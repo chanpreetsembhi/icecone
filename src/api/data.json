@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "img_url": "/products/142.png",
+    "name": "Classic Vanilla Cone",
+    "category": "Cone",
+    "price": 2.99
+  },
+  {
+    "id": 2,
+    "img_url": "/products/143.png",
+    "name": "Dark Chocolate Scoop",
+    "category": "Scoop",
+    "price": 3.29
+  },
+  {
+    "id": 3,
+    "img_url": "/products/144.png",
+    "name": "Fresh Strawberry Cake",
+    "category": "Cake",
+    "price": 3.19
+  },
+  {
+    "id": 4,
+    "img_url": "/products/145.png",
+    "name": "Mint Choco Chip Cone",
+    "category": "Cone",
+    "price": 3.39
+  },
+  {
+    "id": 5,
+    "img_url": "/products/146.png",
+    "name": "Cookie Dough Scoop",
+    "category": "Scoop",
+    "price": 3.49
+  },
+  {
+    "id": 6,
+    "img_url": "/products/147.png",
+    "name": "Classic Waffle Cone",
+    "category": "Cone",
+    "price": 1.5
+  },
+  {
+    "id": 7,
+    "img_url": "/products/148.png",
+    "name": "Chocolate-Dipped Cone",
+    "category": "Cone",
+    "price": 1.99
+  },
+  {
+    "id": 8,
+    "img_url": "/products/149.png",
+    "name": "Sprinkle Sugar Scoop",
+    "category": "Scoop",
+    "price": 2.29
+  },
+  {
+    "id": 9,
+    "img_url": "/products/150.png",
+    "name": "Gluten-Free Cone",
+    "category": "Cone",
+    "price": 2.49
+  },
+  {
+    "id": 10,
+    "img_url": "/products/151.png",
+    "name": "Choco Waffle Cone",
+    "category": "Cone",
+    "price": 2.59
+  }
+]
