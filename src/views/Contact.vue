@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-import Inputfield from '@/components/Inputfield.vue';
+import Inputfield from '@/components/InputField.vue';
 import Textarea from '@/components/Textarea.vue';
 
 const name = ref('');
