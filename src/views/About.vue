@@ -28,15 +28,11 @@ import { Icon } from "@iconify/vue";
                 <h1 class="text-4xl lg:text-6xl font-bold pb-4">Our <span class="text-violet-500">Journey</span>
                     Began
                     With a Simple Dream</h1>
-                <p class="text-neutral-500 text-sm lg:text-base pb-3">Our goal is to make the best ice cream using only
-                    the finest,
-                    natural ingredients. From rich, creamy classics to adventurous
-                    new creations, every flavor is meticulously crafted in-house to
-                    ensure the highest quality and freshness.</p>
-                <p class="text-neutral-500 text-sm lg:text-base pb-6">We take pride in offering a diverse range of
-                    options, including
-                    dairy-free, vegan, and gluten-free choices, so everyone can find
-                    their perfect scoop.</p>
+                <p class="text-neutral-500 text-sm lg:text-base pb-6">From that simple dream, we've grown into a trusted
+                    name in the world of ice cream cones—known for our quality, care, and unmistakable crunch. Every
+                    cone we craft carries the spirit of our humble beginnings and the promise of delight in every bite.
+                    As we continue to innovate and expand, one thing remains the same: our passion for creating the
+                    perfect partner to your favorite scoop.</p>
                 <RouterLink to=""
                     class="bg-violet-600 text-white font-medium rounded-full inline-flex items-center gap-0.5 px-6 py-3">
                     Read More
@@ -51,11 +47,12 @@ import { Icon } from "@iconify/vue";
             <div class="md:w-1/2 max-w-xl mx-auto text-center md:text-start">
                 <h1 class="text-4xl lg:text-6xl font-bold pb-3">Our Mission is to
                     Create Moments</h1>
-                <p class="text-neutral-100 text-sm lg:text-base font-normal pb-8">We strive to foster a welcoming and
-                    joyful environment
-                    where customers of all ages can gather, celebrate, and
-                    make lasting memories. Our commitment extends beyond
-                    serving great ice cream.</p>
+                <p class="text-neutral-200 text-sm lg:text-base font-normal pb-8">
+                    We believe every cone has the power to create more than just a sweet treat it creates a moment. A
+                    moment of joy, laughter, or quiet indulgence. Our mission is to craft wafer cones that bring people
+                    together, spark smiles, and turn everyday experiences into something a little more special. One bite
+                    at a time, we're here to make life a little sweeter.
+                </p>
                 <RouterLink to=""
                     class="bg-white text-violet-600 font-medium rounded-full inline-flex items-center gap-0.5 px-6 py-3">
                     Read More

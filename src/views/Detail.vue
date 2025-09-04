@@ -16,7 +16,7 @@ onMounted(() => {
         <div class="container px-5 py-5 md:py-24 mx-auto">
             <div class="lg:w-4/5 mx-auto flex flex-wrap">
                 <div
-                    class="lg:w-1/2 bg-sky-100 lg:h-auto w-full rounded-xl grid place-content-center aspect-square md:aspect-auto">
+                    class="lg:w-1/2 bg-violet-100 lg:h-auto w-full rounded-xl grid place-content-center aspect-square md:aspect-auto">
                     <img :src="product.img_url" class="md:h-80 mx-auto">
                 </div>
                 <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">

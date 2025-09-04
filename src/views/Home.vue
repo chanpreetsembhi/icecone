@@ -1,9 +1,9 @@
 <script setup lang="ts">
+import { Icon } from "@iconify/vue";
 import Banner from "@/assets/banner.png";
 import Card from "@/components/Card.vue";
 import Product from "@/api/data.json";
-import { Icon } from "@iconify/vue";
-import VeganImg from "@/assets/vegan.png";
+import ConesImg from "@/assets/cones.jpg";
 import dots from "@/assets/60.png";
 import lines from "@/assets/61.png"
 const limit = 4;
@@ -24,7 +24,7 @@ const limit = 4;
                     <Icon icon="mdi:arrow-right-thin" width="20" />
                 </a>
             </div>
-            <div class="max-w-sm lg:max-w-lg order-0 md:order-1">
+            <div class="order-0 md:order-1">
                 <img :src="Banner" alt="header">
             </div>
         </div>
@@ -33,7 +33,7 @@ const limit = 4;
     <section class="bg-neutral-50 py-20 px-5">
         <div class="lg:max-w-7xl mx-auto">
             <div class="flex items-end justify-between pb-5">
-                <h5 class="text-xl lg:text-2xl font-bold">Popular Item</h5>
+                <h5 class="text-xl lg:text-2xl font-bold">Popular Items</h5>
                 <RouterLink to="/products" class="text-neutral-500 hover:text-violet-600 text-sm">See All</RouterLink>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
@@ -45,11 +45,10 @@ const limit = 4;
     <!-- Vegan -->
     <section class="bg-violet-200 py-20 px-5 lg:px-0">
         <div class="bg-white max-w-sm md:max-w-2xl lg:max-w-4xl mx-auto flex flex-col md:flex-row items-center">
-            <img :src="VeganImg" alt="vegan" class="md:w-1/2">
+            <img :src="ConesImg" alt="vegan" class="md:w-1/2">
             <div class="md:w-1/2 p-8 md:p-6">
-                <h1 class="md:text-3xl lg:text-5xl font-bold pb-3 md:pb-6">Our Guilt-Free
-                    <span class="text-violet-600">Vegan</span>
-                    Ice Cream
+                <h1 class="md:text-3xl lg:text-5xl font-bold pb-3 md:pb-6 leading-14">
+                    Crispy Layers of <span class="text-violet-500">Delight</span>, Crafted Joy
                 </h1>
                 <p class="text-neutral-500 text-sm lg:text-base pb-6 md:pb-8">Enjoy creamy, dairy-free ice cream that’s
                     both tasty
@@ -57,8 +56,7 @@ const limit = 4;
                 <RouterLink to="/products"
                     class="bg-violet-600 text-white font-medium rounded-full inline-flex items-center gap-0.5 px-6 py-3">
                     See
-                    Our
-                    Vegan Menu
+                    Our Layers
                     <Icon icon="mdi:arrow-right-thin" width="24" />
                 </RouterLink>
             </div>
@@ -97,7 +95,7 @@ const limit = 4;
                             stars is that one of the pints was slightly soft on arrival, but it was still delicious!</p>
                         <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
                         <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">James R</h2>
-                        <p class="text-gray-500">UI Develeoper</p>
+                        <p class="text-gray-500">UI Developer</p>
                     </div>
                 </div>
                 <div class="p-4">
@@ -110,7 +108,7 @@ const limit = 4;
                             recyclable packaging and fast delivery. Thank you for making dairy-free taste this good!</p>
                         <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
                         <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">Akash K</h2>
-                        <p class="text-gray-500">CTO</p>
+                        <p class="text-gray-500">Business Owner</p>
                     </div>
                 </div>
             </div>
@@ -127,16 +125,13 @@ const limit = 4;
             </div>
             <div class="text-center">
                 <h1 class="text-5xl md:text-7xl font-bold pb-3">Limited<br /> Time Offer!</h1>
-                <p class="text-sm md:text-base pb-6">Get <span class="text-yellow-400">20% Off</span> All Vegan Ice
-                    Creams!</p>
+                <p class="text-sm md:text-base pb-6">Get <span class="text-yellow-400">20% Off</span> on all ice cream
+                    cone wafer</p>
                 <RouterLink to="/products"
                     class="bg-pink-500 hover:bg-pink-600 text-white font-medium rounded-full inline-flex items-center gap-0.5 px-8 py-3">
                     Get This Deal
                     <Icon icon="mdi:arrow-right-thin" width="24" />
                 </RouterLink>
-                <p class="md:text-sm text-xs text-neutral-100 pt-3">Use code: <span
-                        class="text-yellow-400">VEGAN20</span> at
-                    checkout.</p>
             </div>
         </div>
     </section>
