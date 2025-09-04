@@ -2,50 +2,50 @@
   {
     "id": 1,
     "img_url": "/products/single.png",
-    "name": "Classic Vanilla Cone",
+    "name": "Kid Scoop Wafer Cone",
     "category": "Cone",
-    "price": 2.99
+    "price": 2
   },
   {
     "id": 2,
     "img_url": "/products/double.png",
-    "name": "Dark Chocolate Scoop",
+    "name": "Double Scoop Wafer Cone",
     "category": "Cone",
-    "price": 3.29
+    "price": 3
   },
   {
     "id": 3,
-    "img_url": "/products/large.png",
-    "name": "Fresh Strawberry Cake",
+    "img_url": "/products/kid.png",
+    "name": "Single Scoop Wafer Cone",
     "category": "Cone",
-    "price": 3.19
+    "price": 2
   },
   {
     "id": 4,
-    "img_url": "/products/kid.png",
-    "name": "Mint Choco Chip Cone",
+    "img_url": "/products/large.png",
+    "name": "Large Scoop Wafer Cone",
     "category": "Cone",
-    "price": 3.39
+    "price": 3
   },
   {
     "id": 5,
     "img_url": "/products/single-sleeve.png",
-    "name": "Mint Choco Chip Cone",
+    "name": "Wafer Cone with Sleeve",
     "category": "Cone",
-    "price": 3.39
+    "price": 4
   },
   {
     "id": 6,
     "img_url": "/products/single-black.png",
-    "name": "Mint Choco Chip Cone",
+    "name": "Choco Single Wafer Cone",
     "category": "Cone",
-    "price": 3.39
+    "price": 4
   },
   {
     "id": 7,
     "img_url": "/products/large-black.png",
-    "name": "Mint Choco Chip Cone",
+    "name": "Choco Large Wafer Cone",
     "category": "Cone",
-    "price": 3.39
+    "price": 4
   }
 ]
