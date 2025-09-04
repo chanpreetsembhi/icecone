@@ -26,5 +26,26 @@
     "name": "Mint Choco Chip Cone",
     "category": "Cone",
     "price": 3.39
+  },
+  {
+    "id": 5,
+    "img_url": "/products/single-sleeve.png",
+    "name": "Mint Choco Chip Cone",
+    "category": "Cone",
+    "price": 3.39
+  },
+  {
+    "id": 6,
+    "img_url": "/products/single-black.png",
+    "name": "Mint Choco Chip Cone",
+    "category": "Cone",
+    "price": 3.39
+  },
+  {
+    "id": 7,
+    "img_url": "/products/large-black.png",
+    "name": "Mint Choco Chip Cone",
+    "category": "Cone",
+    "price": 3.39
   }
 ]
