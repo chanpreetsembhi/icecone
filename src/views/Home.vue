@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import { Icon } from "@iconify/vue";
 import Banner from "@/assets/banner.png";
 import Card from "@/components/Card.vue";
 import Product from "@/api/data.json";
 import ConesImg from "@/assets/cones.jpg";
 import dots from "@/assets/60.png";
 import lines from "@/assets/61.png"
+import Btn from "@/components/Btn.vue";
 const limit = 4;
 </script>
 <template>
@@ -18,11 +18,7 @@ const limit = 4;
                 <p class="text-sm md:text-base mb-8">Relish the timeless taste of handcrafted ice cream,<br /> made with
                     passion and the finest ingredients.
                 </p>
-                <a href="#"
-                    class="inline-flex items-center gap-1 bg-white text-black font-medium text-sm px-5 py-3 rounded-full">
-                    Browse Our Classic Flavors
-                    <Icon icon="mdi:arrow-right-thin" width="20" />
-                </a>
+                <Btn to="#" varient="white" icon="mdi:arrow-right-thin" label="Browse Our Classic Flavors" />
             </div>
             <div class="order-0 md:order-1">
                 <img :src="Banner" alt="header">
@@ -42,7 +38,7 @@ const limit = 4;
             </div>
         </div>
     </section>
-    <!-- Vegan -->
+    <!-- layers-->
     <section class="bg-violet-200 py-20 px-5 lg:px-0">
         <div class="bg-white max-w-sm md:max-w-2xl lg:max-w-4xl mx-auto flex flex-col md:flex-row items-center">
             <img :src="ConesImg" alt="vegan" class="md:w-1/2">
@@ -50,15 +46,10 @@ const limit = 4;
                 <h1 class="md:text-3xl lg:text-5xl font-bold pb-3 md:pb-6 leading-14">
                     Crispy Layers of <span class="text-violet-500">Delight</span>, Crafted Joy
                 </h1>
-                <p class="text-neutral-500 text-sm lg:text-base pb-6 md:pb-8">Enjoy creamy, dairy-free ice cream that’s
+                <p class="text-neutral-500 text-sm lg:text-base pb-6 md:pb-8">Enjoy creamy, dairy-free ice cream that's
                     both tasty
                     and kind to the planet.</p>
-                <RouterLink to="/products"
-                    class="bg-violet-600 text-white font-medium rounded-full inline-flex items-center gap-0.5 px-6 py-3">
-                    See
-                    Our Layers
-                    <Icon icon="mdi:arrow-right-thin" width="24" />
-                </RouterLink>
+                <Btn to="/products" varient="primary" label="See Our Layers" icon="mdi:arrow-right-thin" />
             </div>
         </div>
     </section>
@@ -81,7 +72,7 @@ const limit = 4;
                             "Strawberry Cheesecake Swirl" was creamy, rich, and full of real fruit chunks. The packaging
                             was cute, and it arrived still perfectly frozen. Definitely ordering again soon!</p>
                         <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
-                        <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">Sarah M</h2>
+                        <h2 class="text-gray-900 font-medium tracking-wider text-sm">Sarah M</h2>
                         <p class="text-gray-500">Consultant</p>
                     </div>
                 </div>
@@ -94,7 +85,7 @@ const limit = 4;
                             "Midnight Mint Chip" and "Peanut Butter Blast"—both were amazing. Only reason I’m giving 4
                             stars is that one of the pints was slightly soft on arrival, but it was still delicious!</p>
                         <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
-                        <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">James R</h2>
+                        <h2 class="text-gray-900 font-medium tracking-wider text-sm">James R</h2>
                         <p class="text-gray-500">UI Developer</p>
                     </div>
                 </div>
@@ -107,7 +98,7 @@ const limit = 4;
                             "Coconut Mocha Crunch" was creamy and satisfying without being too sweet. I loved the
                             recyclable packaging and fast delivery. Thank you for making dairy-free taste this good!</p>
                         <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
-                        <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">Akash K</h2>
+                        <h2 class="text-gray-900 font-medium tracking-wider text-sm">Akash K</h2>
                         <p class="text-gray-500">Business Owner</p>
                     </div>
                 </div>
@@ -127,11 +118,7 @@ const limit = 4;
                 <h1 class="text-5xl md:text-7xl font-bold pb-3">Limited<br /> Time Offer!</h1>
                 <p class="text-sm md:text-base pb-6">Get <span class="text-yellow-400">20% Off</span> on all ice cream
                     cone wafer</p>
-                <RouterLink to="/products"
-                    class="bg-pink-500 hover:bg-pink-600 text-white font-medium rounded-full inline-flex items-center gap-0.5 px-8 py-3">
-                    Get This Deal
-                    <Icon icon="mdi:arrow-right-thin" width="24" />
-                </RouterLink>
+                <Btn to="/products" varient="secondary" label="Get This Deal" icon="mdi:arrow-right-thin" />
             </div>
         </div>
     </section>

@@ -5,7 +5,7 @@ import { Icon } from "@iconify/vue";
 <template>
     <footer class="bg-white border-t border-gray-200 text-gray-600 body-font">
         <div class="container px-5 py-5 mx-auto flex items-center sm:flex-row flex-col">
-            <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900 gap-2">
+            <a class="flex font-medium items-center md:justify-start justify-center text-gray-900 gap-2">
                 <div class="bg-violet-200 rounded-full size-10 p-2">
                     <img :src="Logo" alt="logo" />
                 </div>

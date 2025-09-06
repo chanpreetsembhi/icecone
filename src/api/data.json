@@ -4,48 +4,48 @@
     "img_url": "/products/single.png",
     "name": "Kid Scoop Wafer Cone",
     "category": "Cone",
-    "price": 2
+    "price": 20
   },
   {
     "id": 2,
     "img_url": "/products/double.png",
     "name": "Double Scoop Wafer Cone",
     "category": "Cone",
-    "price": 3
+    "price": 30
   },
   {
     "id": 3,
     "img_url": "/products/kid.png",
     "name": "Single Scoop Wafer Cone",
     "category": "Cone",
-    "price": 2
+    "price": 20
   },
   {
     "id": 4,
     "img_url": "/products/large.png",
     "name": "Large Scoop Wafer Cone",
     "category": "Cone",
-    "price": 3
+    "price": 30
   },
   {
     "id": 5,
     "img_url": "/products/single-sleeve.png",
     "name": "Wafer Cone with Sleeve",
     "category": "Cone",
-    "price": 4
+    "price": 40
   },
   {
     "id": 6,
     "img_url": "/products/single-black.png",
     "name": "Choco Single Wafer Cone",
     "category": "Cone",
-    "price": 4
+    "price": 40
   },
   {
     "id": 7,
     "img_url": "/products/large-black.png",
     "name": "Choco Large Wafer Cone",
     "category": "Cone",
-    "price": 4
+    "price": 40
   }
 ]

@@ -2,6 +2,7 @@
 import Banner from "@/assets/about.jpg";
 import Journey from "@/assets/journey.png"
 import Moment from "@/assets/moment.png";
+import Btn from "@/components/Btn.vue";
 import { Icon } from "@iconify/vue";
 </script>
 <template>
@@ -33,11 +34,7 @@ import { Icon } from "@iconify/vue";
                     cone we craft carries the spirit of our humble beginnings and the promise of delight in every bite.
                     As we continue to innovate and expand, one thing remains the same: our passion for creating the
                     perfect partner to your favorite scoop.</p>
-                <RouterLink to=""
-                    class="bg-violet-600 text-white font-medium rounded-full inline-flex items-center gap-0.5 px-6 py-3">
-                    Read More
-                    <Icon icon="mdi:arrow-right-thin" width="24" />
-                </RouterLink>
+                <Btn to="#" varient="primary" label="Read More" size="large" icon="mdi:arrow-right-thin" />
             </div>
         </div>
     </section>
@@ -53,11 +50,7 @@ import { Icon } from "@iconify/vue";
                     together, spark smiles, and turn everyday experiences into something a little more special. One bite
                     at a time, we're here to make life a little sweeter.
                 </p>
-                <RouterLink to=""
-                    class="bg-white text-violet-600 font-medium rounded-full inline-flex items-center gap-0.5 px-6 py-3">
-                    Read More
-                    <Icon icon="mdi:arrow-right-thin" width="24" />
-                </RouterLink>
+                <Btn to="#" varient="white" label="Read More" size="large" icon="mdi:arrow-right-thin" />
             </div>
             <div class="md:w-1/2 hidden md:flex">
                 <img :src="Moment" alt="moments">
@@ -164,7 +157,7 @@ import { Icon } from "@iconify/vue";
     <section class="bg-neutral-50 text-gray-600 body-font px-5">
         <div class="max-w-sm md:max-w-7xl py-20 mx-auto">
             <div class="flex flex-col text-center w-full mb-14">
-                <h1 class="text-4xl md:text-5xl font-bold title-font mb-2 text-gray-900">
+                <h1 class="text-4xl md:text-5xl font-bold mb-2 text-gray-900">
                     Our <span class="text-violet-600">Statistics</span>
                 </h1>
                 <p class="text-sm leading-relaxed md:text-base">
@@ -173,25 +166,25 @@ import { Icon } from "@iconify/vue";
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                 <div class="bg-white border-b-4 border-violet-600 drop-shadow-sm px-4 py-10 rounded-xl text-center">
-                    <h2 class="title-font font-bold text-5xl text-gray-900">91<span
+                    <h2 class="font-bold text-5xl text-gray-900">91<span
                             class="text-violet-500 text-4xl align-top">+</span>
                     </h2>
                     <p class="leading-relaxed">Awards Win</p>
                 </div>
                 <div class="bg-white border-b-4 border-violet-600 drop-shadow-sm px-4 py-10 rounded-xl text-center">
-                    <h2 class="title-font font-bold text-5xl text-gray-900">95<span
+                    <h2 class="font-bold text-5xl text-gray-900">95<span
                             class="text-violet-500 text-4xl align-top">%</span>
                     </h2>
                     <p class="leading-relaxed">Satisified Clients</p>
                 </div>
                 <div class="bg-white border-b-4 border-violet-600 drop-shadow-sm px-4 py-10 rounded-xl text-center">
-                    <h2 class="title-font font-bold text-5xl text-gray-900">48<span
+                    <h2 class="font-bold text-5xl text-gray-900">48<span
                             class="text-violet-500 text-4xl align-top">+</span>
                     </h2>
                     <p class="leading-relaxed">Years of Experience</p>
                 </div>
                 <div class="bg-white border-b-4 border-violet-600 drop-shadow-sm px-4 py-10 rounded-xl text-center">
-                    <h2 class="title-font font-bold text-5xl text-gray-900">143<span
+                    <h2 class="font-bold text-5xl text-gray-900">143<span
                             class="text-violet-500 text-4xl align-top">+</span>
                     </h2>
                     <p class="leading-relaxed">Employees Working</p>

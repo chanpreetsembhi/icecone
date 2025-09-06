@@ -2,6 +2,7 @@
 import Product from "@/api/data.json";
 import Card from "@/components/Card.vue";
 import Banner from "@/assets/slider-1.jpg";
+import Btn from "@/components/Btn.vue";
 </script>
 <template>
     <section class="relative h-60 md:h-96">
@@ -12,10 +13,7 @@ import Banner from "@/assets/slider-1.jpg";
             <p class="text-sm md:text-base font-normal text-neutral-200 pb-4">Made with real ingredients, crafted to
                 chill your
                 cravings.</p>
-            <a href="#"
-                class="inline-flex items-center gap-1 bg-violet-600 hover:bg-violet-500 text-white font-medium text-sm px-8 py-3 rounded-full">
-                Shop Now
-            </a>
+            <Btn to="#" varient="primary" label="Show Now" />
         </div>
         <div class="bg-black/30 backdrop-blur-xs absolute top-0 size-full"></div>
         <img :src="Banner" alt="banner" class="object-cover object-top h-60 md:h-96 w-full">
